@@ -1,0 +1,79 @@
+baseURL = 'https://junyi.me/'
+title = "/home/張軍毅"
+theme = "hugo-coder"
+languagecode = "zh"
+defaultcontentlanguage = "zh"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "張軍毅"
+  info = "全端資安腳本小子"
+  description = "張軍毅 的網站 junyi.me"
+  keywords = "blog,developer,personal"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jyza11"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/jyza11"
+[[params.social]]
+  name = "Phone"
+  icon = "fa fa-phone fa-2x"
+  weight = 3
+  url = "tel: +886-901100649"
+[[params.social]]
+  name = "Email Address"
+  icon = "fa fa-envelope fa-2x"
+  weight = 3
+  url = "mailto:junyiza11@gmail.com"
+
+# Menu links
+[[menu.main]]
+  name = ""
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = ""
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "履歷"
+  weight = 3
+  url = "resume/"
+[[menu.main]]
+  name = "專案"
+  weight = 3
+  url = "https://github.com/jyza11"
