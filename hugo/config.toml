@@ -72,7 +72,7 @@ style = "github-dark"
 [[menu.main]]
   name = "履歷"
   weight = 3
-  url = "./cv.pdf"
+  url = "https://junyi.me/cv.pdf"
 [[menu.main]]
   name = "專案"
   weight = 3
