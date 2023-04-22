@@ -1,6 +1,6 @@
 baseURL = 'https://junyi.me/'
 title = "/home/張軍毅"
-theme = "hugo-coder"
+theme = "coder"
 languagecode = "zh"
 defaultcontentlanguage = "zh"
 
